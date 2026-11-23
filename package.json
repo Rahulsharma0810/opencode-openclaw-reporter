@@ -1,0 +1,41 @@
+{
+  "name": "opencode-openclaw-reporter",
+  "version": "2.2.0",
+  "description": "OpenCode V2 plugin: reports session activity to an OpenClaw webhook and TickTick (focus time and comments) with a durable outbox.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "openclaw-reporter.example.json"
+  ],
+  "scripts": {
+    "check": "node --check index.js",
+    "test": "node test/test.mjs"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "openclaw",
+    "ticktick",
+    "time-tracking",
+    "webhook"
+  ],
+  "author": "Rahulsharma0810",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahulsharma0810/opencode-openclaw-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rahulsharma0810/opencode-openclaw-reporter/issues"
+  },
+  "homepage": "https://github.com/Rahulsharma0810/opencode-openclaw-reporter#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}

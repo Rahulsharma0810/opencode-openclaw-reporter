@@ -1,0 +1,7 @@
+{
+  "hooksUrl": "https://openclaw.example.com/hooks/task-progress",
+  "hooksToken": "REPLACE_ME",
+  "cfAccessClientId": "REPLACE_ME",
+  "cfAccessClientSecret": "REPLACE_ME",
+  "mcpAuth": "Bearer REPLACE_ME"
+}
